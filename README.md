@@ -73,7 +73,8 @@
                 plt.clf()
 ```
   
-  默认环境训练四百多轮可以实现这样的效果
+  默认环境训练四百多轮可以实现这样的效果：
+  图一为轨迹图，图二为奖励曲线
   
 ![轨迹图](https://github.com/m1ntzz/ppo_path_planning/assets/102210809/d82eda3c-7ed5-4f42-aac9-0466c8fabf37)
 ![奖励曲线](https://github.com/m1ntzz/ppo_path_planning/assets/102210809/cc53ee7d-7716-4891-8ff0-e4dc2c8d59fa)
