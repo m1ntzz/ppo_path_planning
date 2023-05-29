@@ -1,5 +1,5 @@
 # ppo_path_planning
-基于ppo的路径规划,便于编写环境，ppo算法源于https://github.com/tinyzqh/light_mappo  
+基于ppo的路径规划，便于编写环境，ppo算法源于https://github.com/tinyzqh/light_mappo  
 在mappo中将智能体数量设置为1
 
 ## 环境
