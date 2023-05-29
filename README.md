@@ -1,6 +1,6 @@
 # ppo_path_planning
 基于ppo的路径规划，便于编写环境，ppo算法源于https://github.com/tinyzqh/light_mappo  
-在mappo中将智能体数量设置为1
+在mappo中将智能体数量为1即ppo
 
 ## 环境
   强化学习的environment与agent交互部分在env_core.py中，包括智能体的运动学模型、地图信息、奖励函数等。
