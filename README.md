@@ -15,18 +15,14 @@
         self.agent_size = 1  # 智能体半径
         self.safe_distance = 2  # 安全距离
         self.reward_co = [1, 8, 12, 15]  # reward_coefficient:奖励系数
-
         self.u = 0  # 航向角速度
         self.time = 0  # 时间
         self.done = [False]  # 是否完成
         self.t_ach = [300]  # 完成的时间
-
         self.states = []
-
         # 加载地图（线段）
         self.map1 = map.Map()
         self.map_limit = self.map1.limit()
-
         self.target = [45, 25]  # 目标点位置
 '''
 
