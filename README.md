@@ -13,8 +13,9 @@
   运动轨迹图通过envs/env_runner.py输出，图片保存在train目录和train/picture目录下。
   
   默认环境训练四百多轮可以实现这样的效果
-  ![轨迹图](https://github.com/m1ntzz/ppo_path_planning/assets/102210809/d82eda3c-7ed5-4f42-aac9-0466c8fabf37)
-  ![奖励曲线](https://github.com/m1ntzz/ppo_path_planning/assets/102210809/cc53ee7d-7716-4891-8ff0-e4dc2c8d59fa)
+  
+![轨迹图](https://github.com/m1ntzz/ppo_path_planning/assets/102210809/d82eda3c-7ed5-4f42-aac9-0466c8fabf37)
+![奖励曲线](https://github.com/m1ntzz/ppo_path_planning/assets/102210809/cc53ee7d-7716-4891-8ff0-e4dc2c8d59fa)
 
 ## 调参
   在config.py中调参，效果不好先找环境bug，再调整奖励函数，最后考虑调参
